@@ -1,0 +1,23 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "retrieve data from database",
+  "main": "index.js",
+  "scripts": {
+    "start": "node api/data.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jainmary/API.git"
+  },
+  "author": "jain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jainmary/API/issues"
+  },
+  "homepage": "https://github.com/Jainmary/API#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  }
+}
